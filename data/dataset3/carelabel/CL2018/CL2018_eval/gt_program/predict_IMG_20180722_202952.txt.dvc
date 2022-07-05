@@ -1,0 +1,4 @@
+outs:
+- md5: 2cec258ed59c499d4edbcf78214eabd6
+  size: 75
+  path: predict_IMG_20180722_202952.txt

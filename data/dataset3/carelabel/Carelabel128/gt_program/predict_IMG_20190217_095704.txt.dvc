@@ -1,0 +1,4 @@
+outs:
+- md5: 3c8ce4643e6c4279ec2927923446d5ad
+  size: 72
+  path: predict_IMG_20190217_095704.txt

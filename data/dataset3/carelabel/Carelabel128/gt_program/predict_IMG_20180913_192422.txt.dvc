@@ -1,0 +1,4 @@
+outs:
+- md5: 94f0b4b93b61f8eb42b8e2f8b22834e7
+  size: 80
+  path: predict_IMG_20180913_192422.txt

@@ -1,0 +1,4 @@
+outs:
+- md5: 3cb3ec8cd738ed48af1b281e399096a3
+  size: 91
+  path: predict_IMG_20180307_200328.txt

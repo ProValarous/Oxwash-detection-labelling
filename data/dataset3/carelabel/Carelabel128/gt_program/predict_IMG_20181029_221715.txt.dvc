@@ -1,0 +1,4 @@
+outs:
+- md5: 470bc2875e29719b3f585046a1b95311
+  size: 74
+  path: predict_IMG_20181029_221715.txt

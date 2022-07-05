@@ -1,0 +1,4 @@
+outs:
+- md5: 9e9365c78e186736e40463b379bb0a6a
+  size: 83
+  path: predict_IMG_20190505_154723.txt

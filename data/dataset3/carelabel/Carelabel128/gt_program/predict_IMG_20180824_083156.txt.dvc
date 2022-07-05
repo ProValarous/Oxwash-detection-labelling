@@ -1,0 +1,4 @@
+outs:
+- md5: b7be4ca8066e9c6b3ab40579cdfabcec
+  size: 72
+  path: predict_IMG_20180824_083156.txt

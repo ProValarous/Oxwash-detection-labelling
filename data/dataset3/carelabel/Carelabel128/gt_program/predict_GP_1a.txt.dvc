@@ -1,0 +1,4 @@
+outs:
+- md5: c3ac14f8a1a0c8e866db60ba2deaf5fe
+  size: 93
+  path: predict_GP_1a.txt

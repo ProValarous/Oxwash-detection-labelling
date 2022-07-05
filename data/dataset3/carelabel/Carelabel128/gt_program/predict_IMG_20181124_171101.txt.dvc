@@ -1,0 +1,4 @@
+outs:
+- md5: 75c273661a7c1920291f6af3daeb4910
+  size: 84
+  path: predict_IMG_20181124_171101.txt

@@ -1,0 +1,4 @@
+outs:
+- md5: 291f4fc5f5d21d38cfc011a52f04f24e
+  size: 63
+  path: predict_IMG_20180218_213519.txt

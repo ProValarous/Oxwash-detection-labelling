@@ -1,0 +1,4 @@
+outs:
+- md5: 44d2ae52860c26f22e25046da198b641
+  size: 88
+  path: predict_IMG_20190321_185646.txt
