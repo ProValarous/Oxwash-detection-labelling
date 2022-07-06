@@ -1,4 +1,0 @@
-outs:
-- md5: d18a7b34362082cc9be8fbf2ebfa544a
-  size: 89
-  path: predict_GP_8b.txt
