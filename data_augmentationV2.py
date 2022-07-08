@@ -2,6 +2,13 @@ import tensorflow as tf
 import matplotlib.pyplot as plt
 import numpy as np
 
+def random_invert_img(x, p=0.5):
+  if  tf.random.uniform([]) < p:
+    x = (255-x)
+  else:
+    x
+  return x
+
 def data_augmenter():
     '''
     Create a Sequential model composed of 6 layers of preprocessing
@@ -15,6 +22,7 @@ def data_augmenter():
     data_augmentation.add(tf.keras.layers.RandomZoom(0.2,0.2))
     data_augmentation.add(tf.keras.layers.RandomContrast((0.2,0.75)))
     data_augmentation.add(tf.keras.layers.RandomBrightness((-0.35,0.35)))
+    data_augmentation.add(tf.keras.layers.Lambda(lambda x: random_invert_img(x, 0.25)))
 
     return data_augmentation
 
