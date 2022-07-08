@@ -29,12 +29,10 @@ samples = np.expand_dims(data, 0)
 # Add the image to a batch.
 image = tf.cast(samples, tf.float32)
 
-data_augmentation = data_augmenter()
-
 plt.figure(figsize=(10, 10))
 for i in range(9):
   ax = plt.subplot(3, 3, i + 1)
-  augmented_image = data_augmentation(image)
+  augmented_image = data_augmenter()(image)
   plt.imshow(augmented_image[0]/255)
   plt.axis("on")
 plt.show()
