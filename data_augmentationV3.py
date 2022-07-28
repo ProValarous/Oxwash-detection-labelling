@@ -34,9 +34,7 @@ print(image)
 
 print(image.shape)
 
-#plt.imshow(image[0])
-
-aug_iter = gen.flow(image, save_to_dir='new/', save_prefix='aug-image-', save_format='png')
+aug_iter = gen.flow(image)
 
 aug_images = [next(aug_iter)[0].astype('float32') for i in range(12)]
 
